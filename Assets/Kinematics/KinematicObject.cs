@@ -98,6 +98,12 @@ namespace Platformer.Mechanics
         {
             var initialPosition = Body.position;
             velocity = ComputeVelocity();
+
+            if (velocity is { x: 0.0f, y: 0.0f })
+            {
+                return;
+            }
+            
             if (!isGrounded)
             {
                 // velocity += Physics2D.gravity * Time.fixedDeltaTime;
@@ -105,19 +111,6 @@ namespace Platformer.Mechanics
             
             CollideAndSlide(velocity * Time.fixedDeltaTime);
             var deltaPosition = Body.position - initialPosition;
-            // velocity = deltaPosition / Time.fixedDeltaTime;
-            // Debug.DrawRay(Body.position, velocity, Color.green, Time.fixedDeltaTime);
-            
-            /*var floorHit = SnapToFloor();
-            if (floorHit)
-            {
-                isGrounded = true;
-                velocity.y = 0.0f;
-            }
-            else
-            {
-                isGrounded = false;
-            }*/
         }
 
         protected KinematicMoveResult PerformMovement(Vector2 move)
@@ -137,7 +130,8 @@ namespace Platformer.Mechanics
             {
                 collisionResult.RequestedDistance = moveDistance;
                 collisionResult.DistanceMoved = moveDistance;
-                Body.MovePosition(Body.position + move);
+                //Body.MovePosition(Body.position + move);
+                Body.position += move;
                 return collisionResult;
             }
             
@@ -155,7 +149,8 @@ namespace Platformer.Mechanics
             if (closestHit.distance - shellRadius > moveDistance)
             {
                 collisionResult.DistanceMoved = moveDistance;
-                Body.MovePosition(Body.position + move);
+                // Body.MovePosition(Body.position + move);
+                Body.position += move;
                 return collisionResult;
             }
             
@@ -188,14 +183,17 @@ namespace Platformer.Mechanics
                     return;
                 }
 
-                var collisionNormal = movementResult.Hits.First().normal;
                 movementLength -= movementResult.DistanceMoved;
-                movementLength += Vector2.Dot(collisionNormal, movementThisStep);
-
-                if (movementLength < 0.0f)
+                if (movementLength <= 0.0f)
                 {
                     return;
                 }
+
+                var collisionNormal = movementResult.Hits.First().normal;
+                var moveDirection = movementThisStep.normalized;
+                var remainingMovement = moveDirection * movementLength;
+                remainingMovement -= Vector2.Dot(movementThisStep, collisionNormal) * collisionNormal;
+                movementLength = remainingMovement.magnitude;
                 
                 var planeDirection = (movementThisStep - Vector2.Dot(movementThisStep, collisionNormal) * collisionNormal).normalized;
                 var slideMovement = planeDirection * movementLength;

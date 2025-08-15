@@ -1,10 +1,25 @@
 fileFormatVersion: 2
-guid: 9dfb698f2bd23314582b515b4c0589c7
+guid: a102ae36d2b49a94e810a391ea7c3a96
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6994591496534999179
-    second: Sp_Player_0
+      213: 2152729360556575097
+    second: Sp_PlayerAttack_0
+  - first:
+      213: 4540249257304383253
+    second: Sp_PlayerAttack_1
+  - first:
+      213: -4552121899105920767
+    second: Sp_PlayerAttack_2
+  - first:
+      213: 1627346021417241576
+    second: Sp_PlayerAttack_3
+  - first:
+      213: -68351055204284700
+    second: Sp_PlayerAttack_4
+  - first:
+      213: 1253052037265147865
+    second: Sp_PlayerAttack_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,177 +115,133 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Sp_Player_0
+      name: Sp_PlayerAttack_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 112
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        y: 96
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.25, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b80cfeb38e7c11160800000000000000
-      internalID: 6994591496534999179
+      spriteID: 9794781a2f700ed10800000000000000
+      internalID: 2152729360556575097
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sp_Player_1
+      name: Sp_PlayerAttack_1
       rect:
         serializedVersion: 2
-        x: 16
-        y: 112
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fcaac1dea0b51b1438b1acff1d5240c4
-      internalID: 336345391
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sp_Player_2
-      rect:
-        serializedVersion: 2
-        x: 0
+        x: 32
         y: 96
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.25, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: f2b446100acec4c429d708ec860c6090
-      internalID: 1487016985
+      spriteID: 51fdb5de4a4320f30800000000000000
+      internalID: 4540249257304383253
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sp_Player_3
+      name: Sp_PlayerAttack_2
       rect:
         serializedVersion: 2
-        x: 16
+        x: 64
         y: 96
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.25, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 7388ab006dc26b241a9bd4f67c3ce61f
-      internalID: -1997316033
+      spriteID: 109d38d304d93d0c0800000000000000
+      internalID: -4552121899105920767
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sp_Player_4
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 80
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8f721b94ad722144ba60ee86bd6cc697
-      internalID: 982597478
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sp_Player_5
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 80
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: caa0d4775acd0ea44b4951058baa3bdf
-      internalID: 923550597
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sp_Player_6
+      name: Sp_PlayerAttack_3
       rect:
         serializedVersion: 2
         x: 0
         y: 64
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.75, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: b4c2a794c28b65149b4a26101d96e6c5
-      internalID: -1418909449
+      spriteID: 8eb483d959e759610800000000000000
+      internalID: 1627346021417241576
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sp_Player_7
+      name: Sp_PlayerAttack_4
       rect:
         serializedVersion: 2
-        x: 16
+        x: 32
         y: 64
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.75, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 28484d3611ea87d4aae8c95eece2957d
-      internalID: -2029348945
+      spriteID: 4e68682d31b2d0ff0800000000000000
+      internalID: -68351055204284700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sp_PlayerAttack_5
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.75, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d7c44e503cb36110800000000000000
+      internalID: 1253052037265147865
       vertices: []
       indices: 
       edges: []
@@ -279,7 +250,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 37b4fda06700c624189346f7b07d990a
+    spriteID: 29fd770501236be458a6a9e8aebf2aae
     internalID: 0
     vertices: []
     indices: 
@@ -289,14 +260,12 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Sp_Player_0: 6994591496534999179
-      Sp_Player_1: 336345391
-      Sp_Player_2: 1487016985
-      Sp_Player_3: -1997316033
-      Sp_Player_4: 982597478
-      Sp_Player_5: 923550597
-      Sp_Player_6: -1418909449
-      Sp_Player_7: -2029348945
+      Sp_PlayerAttack_0: 2152729360556575097
+      Sp_PlayerAttack_1: 4540249257304383253
+      Sp_PlayerAttack_2: -4552121899105920767
+      Sp_PlayerAttack_3: 1627346021417241576
+      Sp_PlayerAttack_4: -68351055204284700
+      Sp_PlayerAttack_5: 1253052037265147865
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

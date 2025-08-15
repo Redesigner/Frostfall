@@ -10,8 +10,9 @@ using UnityEngine.Serialization;
 [RequireComponent(typeof(Animator))]
 public class KinematicCharacterController : KinematicObject
 {
-    private static readonly int Horizontal = Animator.StringToHash("Horizontal");
-    private static readonly int Vertical = Animator.StringToHash("Vertical");
+    private static readonly int HorizontalBlend = Animator.StringToHash("Horizontal");
+    private static readonly int VerticalBlend = Animator.StringToHash("Vertical");
+    private static readonly int SpeedBlend = Animator.StringToHash("Speed");
 
 
     [SerializeField]
@@ -19,6 +20,8 @@ public class KinematicCharacterController : KinematicObject
 
     [SerializeField]
     private float jumpSpeed = 5.0f;
+    
+    private bool _movementEnabled = true;
 
     private Animator _animator;
 
@@ -47,21 +50,56 @@ public class KinematicCharacterController : KinematicObject
         return _moveInput * walkSpeed;
     }
 
-    public void OnWalkInput(InputAction.CallbackContext context)
+    protected override void FixedUpdate()
     {
-        WalkInput = context.ReadValue<float>();
+        if (!_movementEnabled)
+        {
+            return;
+        }
+        
+        base.FixedUpdate();
     }
 
     public void OnMoveInput(InputAction.CallbackContext context)
     {
         MoveInput = context.ReadValue<Vector2>();
+        if (!_movementEnabled)
+        {
+            return;
+        }
+        
 
         if (_moveInput.x != 0.0f || _moveInput.y != 0.0f)
         {
-            _animator.SetFloat(Horizontal, _moveInput.x);
-            _animator.SetFloat(Vertical, _moveInput.y);
+            _animator.SetFloat(HorizontalBlend, _moveInput.x);
+            _animator.SetFloat(VerticalBlend, _moveInput.y);
+            _animator.SetFloat(SpeedBlend, 1.0f);
         }
-        _animator.speed = _moveInput is { x: 0.0f, y: 0.0f } ? 0.0f : 1.0f;
-        Debug.Log(_animator.GetFloat(Horizontal));
+        else
+        {
+            _animator.SetFloat(SpeedBlend, 0.0f);
+        }
+    }
+
+    public void EnableMovement()
+    {
+        _movementEnabled = true;
+        
+        // Pull our last registered input value into animator
+        if (_moveInput.x != 0.0f || _moveInput.y != 0.0f)
+        {
+            _animator.SetFloat(HorizontalBlend, _moveInput.x);
+            _animator.SetFloat(VerticalBlend, _moveInput.y);
+            _animator.SetFloat(SpeedBlend, 1.0f);
+        }
+        else
+        {
+            _animator.SetFloat(SpeedBlend, 0.0f);
+        }
+    }
+
+    public void DisableMovement()
+    {
+        _movementEnabled = false;
     }
 }
