@@ -91,7 +91,7 @@ namespace Platformer.Mechanics
         [Pure]
         protected virtual Vector2 ComputeVelocity()
         {
-            return velocity + Physics2D.gravity * Time.fixedDeltaTime;
+            return velocity;
         }
 
         protected virtual void FixedUpdate()

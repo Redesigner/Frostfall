@@ -1,11 +1,10 @@
-using Unity.Mathematics.Geometry;
 using UnityEngine;
 using UnityEngine.Events;
 public class HealthComponent : MonoBehaviour
 {
     [SerializeField] public float maxHealth;
 
-    [SerializeField] [ReadOnly] private float health;
+    [SerializeField] private float health;
 
     public UnityEvent onTakeDamage;
     public UnityEvent onDeath;
@@ -35,8 +34,7 @@ public class HealthComponent : MonoBehaviour
         alive = false;
         onDeath.Invoke();
     }
-
-
+    
     public void Heal(float healing)
     {
         if (!alive)
