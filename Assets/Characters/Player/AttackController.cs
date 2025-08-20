@@ -23,9 +23,4 @@ public class AttackController : MonoBehaviour
         
         _animator.SetTrigger(AttackTrigger);
     }
-
-    public void OnEnemyHit(Collider2D other)
-    {
-        other.GetComponent<HealthComponent>().TakeDamage(5.0f);
-    }
 }

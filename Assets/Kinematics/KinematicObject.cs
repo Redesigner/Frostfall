@@ -1,4 +1,3 @@
-using System;
 using System.Collections.Generic;
 using System.Diagnostics.Contracts;
 using System.Linq;
@@ -8,13 +7,12 @@ namespace Platformer.Mechanics
 {
     public class KinematicMoveResult
     {
-        public float DistanceMoved = 0.0f;
-        public float RequestedDistance = 0.0f;
-        public readonly List<RaycastHit2D> Hits = new ();
+        public float distanceMoved;
+        public readonly List<RaycastHit2D> hits = new ();
 
         public bool Collided()
         {
-            return Hits.Count > 0;
+            return hits.Count > 0;
         }
     }
     
@@ -39,15 +37,8 @@ namespace Platformer.Mechanics
         [SerializeField]
         public Vector2 velocity;
 
-        /// <summary>
-        /// Is the entity currently sitting on a surface?
-        /// </summary>
-        /// <value></value>
-        [SerializeField]
-        public bool isGrounded = false;
-        
-        protected Rigidbody2D Body;
-        protected ContactFilter2D ContactFilter;
+        private Rigidbody2D _body;
+        private ContactFilter2D _contactFilter;
 
         [SerializeField]
         private float minMoveDistance = 0.001f;
@@ -55,9 +46,7 @@ namespace Platformer.Mechanics
         [SerializeField]
         private float shellRadius = 0.01f;
 
-        private int _maxMoveCount = 5;
-
-        private Vector2 floorNormal;
+        private const int MaxMoveCount = 5;
 
         /// <summary>
         /// Teleport to some position.
@@ -65,27 +54,27 @@ namespace Platformer.Mechanics
         /// <param name="position"></param>
         public void Teleport(Vector3 position)
         {
-            Body.position = position;
+            _body.position = position;
             velocity *= 0;
-            Body.linearVelocity *= 0;
+            _body.linearVelocity *= 0;
         }
 
         protected virtual void OnEnable()
         {
-            Body = GetComponent<Rigidbody2D>();
-            Body.bodyType = RigidbodyType2D.Kinematic;
+            _body = GetComponent<Rigidbody2D>();
+            _body.bodyType = RigidbodyType2D.Kinematic;
         }
 
         protected virtual void OnDisable()
         {
-            Body.bodyType = RigidbodyType2D.Dynamic;
+            _body.bodyType = RigidbodyType2D.Dynamic;
         }
 
         protected virtual void Start()
         {
-            ContactFilter.useTriggers = false;
-            ContactFilter.SetLayerMask(Physics2D.GetLayerCollisionMask(gameObject.layer));
-            ContactFilter.useLayerMask = true;
+            _contactFilter.useTriggers = false;
+            _contactFilter.SetLayerMask(Physics2D.GetLayerCollisionMask(gameObject.layer));
+            _contactFilter.useLayerMask = true;
         }
         
         [Pure]
@@ -96,7 +85,6 @@ namespace Platformer.Mechanics
 
         protected virtual void FixedUpdate()
         {
-            var initialPosition = Body.position;
             velocity = ComputeVelocity();
 
             if (velocity is { x: 0.0f, y: 0.0f })
@@ -104,13 +92,7 @@ namespace Platformer.Mechanics
                 return;
             }
             
-            if (!isGrounded)
-            {
-                // velocity += Physics2D.gravity * Time.fixedDeltaTime;
-            }
-            
             CollideAndSlide(velocity * Time.fixedDeltaTime);
-            var deltaPosition = Body.position - initialPosition;
         }
 
         protected KinematicMoveResult PerformMovement(Vector2 move)
@@ -125,19 +107,18 @@ namespace Platformer.Mechanics
             var sweepDistance = (moveDistance + shellRadius) * 2.0f;
 
             var collisionResult = new KinematicMoveResult();
-            var count = Body.Cast(move.normalized, ContactFilter, collisionResult.Hits, sweepDistance);
+            var count = _body.Cast(move.normalized, _contactFilter, collisionResult.hits, sweepDistance);
             if (count == 0)
             {
-                collisionResult.RequestedDistance = moveDistance;
-                collisionResult.DistanceMoved = moveDistance;
+                collisionResult.distanceMoved = moveDistance;
                 //Body.MovePosition(Body.position + move);
-                Body.position += move;
+                _body.position += move;
                 return collisionResult;
             }
             
-            collisionResult.Hits.Sort((hitA, hitB) => Mathf.Approximately(hitA.distance, hitB.distance) ? 0 : (hitA.distance < hitB.distance ? -1 : 1));
+            collisionResult.hits.Sort((hitA, hitB) => Mathf.Approximately(hitA.distance, hitB.distance) ? 0 : (hitA.distance < hitB.distance ? -1 : 1));
             // Sort by distance, ascending
-            var closestHit = collisionResult.Hits.First();
+            var closestHit = collisionResult.hits.First();
 
             var modifiedShellRadius = shellRadius / Vector2.Dot(moveDirection, -closestHit.normal);
             if (closestHit.distance <= modifiedShellRadius)
@@ -148,17 +129,13 @@ namespace Platformer.Mechanics
 
             if (closestHit.distance - shellRadius > moveDistance)
             {
-                collisionResult.DistanceMoved = moveDistance;
+                collisionResult.distanceMoved = moveDistance;
                 // Body.MovePosition(Body.position + move);
-                Body.position += move;
+                _body.position += move;
                 return collisionResult;
             }
             
-            // Body.MovePosition(Body.position + moveDirection * (closestHit.distance - shellRadius));
-            Body.position += moveDirection * (closestHit.distance - shellRadius);
-            
-            // Debug.DrawRay(closestHit.point, moveDirection * -closestHit.distance, Color.cyan);
-            // Debug.DrawRay(closestHit.point, new Vector2(closestHit.normal.y, closestHit.normal.x) * 0.1f, Color.red);
+            _body.position += moveDirection * (closestHit.distance - shellRadius);
             return collisionResult;
         }
 
@@ -168,13 +145,11 @@ namespace Platformer.Mechanics
             {
                 return;
             }
-
-            var startPosition = Body.position;
             
             var movementThisStep = movement;
             var movementLength = movement.magnitude;
             
-            for (var moveCount = 0; moveCount < _maxMoveCount; ++moveCount)
+            for (var moveCount = 0; moveCount < MaxMoveCount; ++moveCount)
             {
                 var movementResult = PerformMovement(movementThisStep);
                 
@@ -183,13 +158,13 @@ namespace Platformer.Mechanics
                     return;
                 }
 
-                movementLength -= movementResult.DistanceMoved;
+                movementLength -= movementResult.distanceMoved;
                 if (movementLength <= 0.0f)
                 {
                     return;
                 }
 
-                var collisionNormal = movementResult.Hits.First().normal;
+                var collisionNormal = movementResult.hits.First().normal;
                 var moveDirection = movementThisStep.normalized;
                 var remainingMovement = moveDirection * movementLength;
                 remainingMovement -= Vector2.Dot(movementThisStep, collisionNormal) * collisionNormal;
@@ -205,20 +180,22 @@ namespace Platformer.Mechanics
         {
             var colliders = new List<Collider2D>();
             var overlappingColliders = new List<Collider2D>();
-            Body.GetAttachedColliders(colliders);
+            _body.GetAttachedColliders(colliders);
 
-            if (colliders.Count >= 0)
+            if (colliders.Count < 0)
             {
-                var collider = colliders.First();
-                if (collider.Overlap(overlappingColliders) <= 0)
-                {
-                    return;
-                }
-                var delta = collider.Distance(overlappingColliders.First());
-                var resolutionDelta = delta.normal * delta.distance;
-                Body.position += resolutionDelta;
-                Debug.DrawRay(Body.position, resolutionDelta * 5.0f, Color.magenta, 2.0f);
+                return;
             }
+            
+            var mainCollider = colliders.First();
+            if (mainCollider.Overlap(overlappingColliders) <= 0)
+            {
+                return;
+            }
+            var delta = mainCollider.Distance(overlappingColliders.First());
+            var resolutionDelta = delta.normal * delta.distance;
+            _body.position += resolutionDelta;
+            Debug.DrawRay(_body.position, resolutionDelta * 5.0f, Color.magenta, 2.0f);
         }
 
         
@@ -239,7 +216,7 @@ namespace Platformer.Mechanics
             
             var hits = new List<RaycastHit2D>();
             var distance = velocity.y * Time.fixedDeltaTime + shellRadius + 0.1f;
-            Body.Cast(Vector2.down, ContactFilter, hits, distance);
+            _body.Cast(Vector2.down, _contactFilter, hits, distance);
             if (hits.Count == 0)
             {
                 return false;
@@ -250,7 +227,7 @@ namespace Platformer.Mechanics
                 return false;
             }
 
-            Body.position = hits.First().centroid + new Vector2(0.0f, shellRadius);
+            _body.position = hits.First().centroid + new Vector2(0.0f, shellRadius);
             return true;
         }
     }

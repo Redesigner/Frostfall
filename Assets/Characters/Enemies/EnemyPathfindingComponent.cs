@@ -4,11 +4,11 @@ using UnityEngine;
 using UnityEngine.AI;
 
 [RequireComponent(typeof(NavMeshAgent))]
-[RequireComponent(typeof(KinematicObject))]
+[RequireComponent(typeof(KinematicCharacterController))]
 public class EnemyPathfindingComponent : MonoBehaviour
 {
     private NavMeshAgent _navMeshAgent;
-    private KinematicObject _kinematicObject;
+    private KinematicCharacterController _kinematicObject;
     
     [SerializeField]
     private GameObject target;
@@ -16,7 +16,7 @@ public class EnemyPathfindingComponent : MonoBehaviour
     private void OnEnable()
     {
         _navMeshAgent = GetComponent<NavMeshAgent>();
-        _kinematicObject = GetComponent<KinematicObject>();
+        _kinematicObject = GetComponent<KinematicCharacterController>();
     }
 
     public void Start()
@@ -37,7 +37,7 @@ public class EnemyPathfindingComponent : MonoBehaviour
 
         _navMeshAgent.nextPosition = _kinematicObject.transform.position;
         _navMeshAgent.destination = target.transform.position;
-        _kinematicObject.velocity = _navMeshAgent.desiredVelocity;
+        _kinematicObject.moveInput = _navMeshAgent.desiredVelocity;
         Debug.DrawRay(_kinematicObject.gameObject.transform.position, _navMeshAgent.desiredVelocity, Color.red, Time.fixedDeltaTime);
     }
 }

@@ -25,13 +25,9 @@ public class KinematicCharacterController : KinematicObject
 
     private Animator _animator;
 
-    private float _walkInput;
-    public float WalkInput
-    {
-        set => _walkInput = Math.Clamp(value, -1.0f, 1.0f);
-    }
-
     private Vector2 _moveInput;
+
+    private TimerHandle _knockbackTimer;
 
     protected override void OnEnable()
     {
@@ -40,29 +36,24 @@ public class KinematicCharacterController : KinematicObject
         _animator = GetComponent<Animator>();
     }
 
-    public Vector2 MoveInput
+    public Vector2 moveInput
     {
         set => _moveInput = value.sqrMagnitude > 1.0f ? value.normalized : value;
     }
 
     protected override Vector2 ComputeVelocity()
     {
-        return _moveInput * walkSpeed;
+        return _movementEnabled ? _moveInput * walkSpeed : velocity;
     }
 
     protected override void FixedUpdate()
     {
-        if (!_movementEnabled)
-        {
-            return;
-        }
-        
         base.FixedUpdate();
     }
 
     public void OnMoveInput(InputAction.CallbackContext context)
     {
-        MoveInput = context.ReadValue<Vector2>();
+        moveInput = context.ReadValue<Vector2>();
         if (!_movementEnabled)
         {
             return;
@@ -101,5 +92,13 @@ public class KinematicCharacterController : KinematicObject
     public void DisableMovement()
     {
         _movementEnabled = false;
+        velocity = Vector2.zero;
+    }
+
+    public void Knockback(Vector2 knockbackVector, float duration)
+    {
+        DisableMovement();
+        velocity = knockbackVector;
+        _knockbackTimer = TimerManager.instance.CreateTimer(this, duration, EnableMovement);
     }
 }

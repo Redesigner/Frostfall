@@ -6,12 +6,12 @@ public class HealthComponent : MonoBehaviour
 
     [SerializeField] private float health;
 
-    public UnityEvent onTakeDamage;
+    public UnityEvent<GameObject> onTakeDamage;
     public UnityEvent onDeath;
 
     [field: SerializeField] [ReadOnly] public bool alive { get; private set; } = true;
 
-    public void TakeDamage(float damage)
+    public void TakeDamage(float damage, GameObject source)
     {
         if (damage < 0.0f)
         {
@@ -26,7 +26,8 @@ public class HealthComponent : MonoBehaviour
         health -= damage;
         if (health > 0.0f)
         {
-            onTakeDamage.Invoke();
+            onTakeDamage.Invoke(source);
+            GetComponent<KinematicCharacterController>().Knockback((gameObject.transform.position - source.transform.position) * 5.0f, 0.25f);
             return;
         }
         
