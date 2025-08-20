@@ -389,7 +389,6 @@ MonoBehaviour:
   minMoveDistance: 0.001
   shellRadius: 0.01
   walkSpeed: 5
-  jumpSpeed: 5
 --- !u!114 &-4543307026917143729
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -402,3 +401,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 530148ec699c99f429d4ffec0fcc5dd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hitboxComponent: {fileID: 5516767080628845717}

@@ -1,10 +1,13 @@
 using System;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
 [RequireComponent(typeof(Animator))]
 public class AttackController : MonoBehaviour
 {
+    [SerializeField] private HitboxComponent hitboxComponent;
+    
     private static readonly int AttackTrigger = Animator.StringToHash("Attack");
 
     private Animator _animator;
@@ -21,6 +24,7 @@ public class AttackController : MonoBehaviour
             return;
         }
         
+        hitboxComponent.Reset();
         _animator.SetTrigger(AttackTrigger);
     }
 }
