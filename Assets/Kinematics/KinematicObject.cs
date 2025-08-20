@@ -65,11 +65,6 @@ namespace Platformer.Mechanics
             _body.bodyType = RigidbodyType2D.Kinematic;
         }
 
-        protected virtual void OnDisable()
-        {
-            _body.bodyType = RigidbodyType2D.Dynamic;
-        }
-
         protected virtual void Start()
         {
             _contactFilter.useTriggers = false;

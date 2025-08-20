@@ -25,6 +25,7 @@ public class EnemyPathfindingComponent : MonoBehaviour
         _navMeshAgent.updateUpAxis = false;
         _navMeshAgent.destination = Vector3.zero;
         _navMeshAgent.updatePosition = false;
+        target = GameObject.Find("Player");
         // _navMeshAgent.isStopped = true;
     }
 

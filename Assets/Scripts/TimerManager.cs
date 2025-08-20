@@ -69,6 +69,9 @@ public class TimerManager : MonoBehaviour
             }
             
             var container = new GameObject("TimerManager");
+            
+            // ReSharper disable once Unity.PerformanceCriticalCodeInvocation
+            // Only called once per game
             _instance = container.AddComponent<TimerManager>();
             return _instance;
         }
@@ -90,6 +93,8 @@ public class TimerManager : MonoBehaviour
             
             if (timer.owner.TryGetTarget(out var owner))
             {
+                // ReSharper disable once Unity.PerformanceCriticalCodeInvocation
+                // This invocation is only ever called once
                 timer.callback.Invoke();
             }
             _timers.RemoveAt(i);

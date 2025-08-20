@@ -17,9 +17,6 @@ public class KinematicCharacterController : KinematicObject
 
     [SerializeField]
     private float walkSpeed = 4.0f;
-
-    [SerializeField]
-    private float jumpSpeed = 5.0f;
     
     private bool _movementEnabled = true;
 

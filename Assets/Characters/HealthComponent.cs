@@ -27,13 +27,20 @@ public class HealthComponent : MonoBehaviour
         if (health > 0.0f)
         {
             onTakeDamage.Invoke(source);
-            GetComponent<KinematicCharacterController>().Knockback((gameObject.transform.position - source.transform.position) * 5.0f, 0.25f);
+            GetComponent<KinematicCharacterController>().Knockback((gameObject.transform.position - source.transform.position).normalized * 5.0f, 0.25f);
             return;
         }
         
+        // onTakeDamage.Invoke(source);
         health = 0.0f;
         alive = false;
         onDeath.Invoke();
+
+        GetComponent<KinematicCharacterController>().enabled = false;
+        TimerManager.instance.CreateTimer(this, 0.5f, () =>
+        {
+            Destroy(gameObject);
+        });
     }
     
     public void Heal(float healing)
