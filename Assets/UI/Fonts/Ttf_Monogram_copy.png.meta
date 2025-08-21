@@ -1,0 +1,2223 @@
+fileFormatVersion: 2
+guid: 12dc01e2f8f109d42bfcb46f3a1e76ae
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5214148232782764690
+    second: Ttf_Monogram_copy_0
+  - first:
+      213: -2127852898631895684
+    second: Ttf_Monogram_copy_1
+  - first:
+      213: 1303011607155829900
+    second: Ttf_Monogram_copy_2
+  - first:
+      213: 68638023143305981
+    second: Ttf_Monogram_copy_3
+  - first:
+      213: 416830318484453692
+    second: Ttf_Monogram_copy_4
+  - first:
+      213: 2679817553104421538
+    second: Ttf_Monogram_copy_5
+  - first:
+      213: 8831082064245199469
+    second: Ttf_Monogram_copy_6
+  - first:
+      213: 9146419533147135265
+    second: Ttf_Monogram_copy_7
+  - first:
+      213: 2403702930678313802
+    second: Ttf_Monogram_copy_8
+  - first:
+      213: -5908189187033006675
+    second: Ttf_Monogram_copy_9
+  - first:
+      213: 7892715322207633607
+    second: Ttf_Monogram_copy_10
+  - first:
+      213: -2935059417842218349
+    second: Ttf_Monogram_copy_11
+  - first:
+      213: 6803251636672106877
+    second: Ttf_Monogram_copy_12
+  - first:
+      213: 4181815938189302434
+    second: Ttf_Monogram_copy_13
+  - first:
+      213: -5060007736493591802
+    second: Ttf_Monogram_copy_14
+  - first:
+      213: 221018501488127204
+    second: Ttf_Monogram_copy_15
+  - first:
+      213: -5831873692687006382
+    second: Ttf_Monogram_copy_16
+  - first:
+      213: -5904162660027258836
+    second: Ttf_Monogram_copy_17
+  - first:
+      213: -5879895574358943901
+    second: Ttf_Monogram_copy_18
+  - first:
+      213: 7060661335499242160
+    second: Ttf_Monogram_copy_19
+  - first:
+      213: 3505902230593499334
+    second: Ttf_Monogram_copy_20
+  - first:
+      213: -2834104517178989084
+    second: Ttf_Monogram_copy_21
+  - first:
+      213: 413399162161314258
+    second: Ttf_Monogram_copy_22
+  - first:
+      213: -4090530127016970351
+    second: Ttf_Monogram_copy_23
+  - first:
+      213: -3094685639584336515
+    second: Ttf_Monogram_copy_24
+  - first:
+      213: 3984783551583389869
+    second: Ttf_Monogram_copy_25
+  - first:
+      213: -1180510942925489632
+    second: Ttf_Monogram_copy_26
+  - first:
+      213: -5950979113065144357
+    second: Ttf_Monogram_copy_27
+  - first:
+      213: -4950898759234044745
+    second: Ttf_Monogram_copy_28
+  - first:
+      213: -7475610251333870869
+    second: Ttf_Monogram_copy_29
+  - first:
+      213: -4998887111499497593
+    second: Ttf_Monogram_copy_30
+  - first:
+      213: 8125954858680639669
+    second: Ttf_Monogram_copy_31
+  - first:
+      213: -2077131203391789497
+    second: Ttf_Monogram_copy_32
+  - first:
+      213: 7606312389834689592
+    second: Ttf_Monogram_copy_33
+  - first:
+      213: -5348668686524055068
+    second: Ttf_Monogram_copy_34
+  - first:
+      213: -4223463539315057656
+    second: Ttf_Monogram_copy_35
+  - first:
+      213: -8214914324915718420
+    second: Ttf_Monogram_copy_36
+  - first:
+      213: -5348932706488700419
+    second: Ttf_Monogram_copy_37
+  - first:
+      213: 1037369117930383407
+    second: Ttf_Monogram_copy_38
+  - first:
+      213: -4721303103744421967
+    second: Ttf_Monogram_copy_39
+  - first:
+      213: 2104559411817299839
+    second: Ttf_Monogram_copy_40
+  - first:
+      213: -4440245655724801141
+    second: Ttf_Monogram_copy_41
+  - first:
+      213: 6206477074198285867
+    second: Ttf_Monogram_copy_42
+  - first:
+      213: -5851712665078529909
+    second: Ttf_Monogram_copy_43
+  - first:
+      213: -6524196777025768225
+    second: Ttf_Monogram_copy_44
+  - first:
+      213: 7098780013271490727
+    second: Ttf_Monogram_copy_45
+  - first:
+      213: -1761052112990201512
+    second: Ttf_Monogram_copy_46
+  - first:
+      213: 8273223542191834272
+    second: Ttf_Monogram_copy_47
+  - first:
+      213: 5639586581864497957
+    second: Ttf_Monogram_copy_48
+  - first:
+      213: -4954232090074304168
+    second: Ttf_Monogram_copy_49
+  - first:
+      213: -6050098146809003082
+    second: Ttf_Monogram_copy_50
+  - first:
+      213: 6905891811388247368
+    second: Ttf_Monogram_copy_51
+  - first:
+      213: -9039338689077317405
+    second: Ttf_Monogram_copy_52
+  - first:
+      213: 1899918446244890129
+    second: Ttf_Monogram_copy_53
+  - first:
+      213: 9035368210808704556
+    second: Ttf_Monogram_copy_54
+  - first:
+      213: 8463045144022895787
+    second: Ttf_Monogram_copy_55
+  - first:
+      213: 6082301136256672351
+    second: Ttf_Monogram_copy_56
+  - first:
+      213: -6893803432569168413
+    second: Ttf_Monogram_copy_57
+  - first:
+      213: 9102139121943140538
+    second: Ttf_Monogram_copy_58
+  - first:
+      213: 1510009941412250353
+    second: Ttf_Monogram_copy_59
+  - first:
+      213: -2312962038961667036
+    second: Ttf_Monogram_copy_60
+  - first:
+      213: -8532812361139129535
+    second: Ttf_Monogram_copy_61
+  - first:
+      213: -1457179119068856586
+    second: Ttf_Monogram_copy_62
+  - first:
+      213: 3464950209365637102
+    second: Ttf_Monogram_copy_63
+  - first:
+      213: 5972760394091168195
+    second: Ttf_Monogram_copy_64
+  - first:
+      213: 7746517242562506554
+    second: Ttf_Monogram_copy_65
+  - first:
+      213: -7294523746681719152
+    second: Ttf_Monogram_copy_66
+  - first:
+      213: -7494558091068288977
+    second: Ttf_Monogram_copy_67
+  - first:
+      213: 3298535132561218074
+    second: Ttf_Monogram_copy_68
+  - first:
+      213: -2635070061713556815
+    second: Ttf_Monogram_copy_69
+  - first:
+      213: -6316879734597411725
+    second: Ttf_Monogram_copy_70
+  - first:
+      213: -5071077931787183328
+    second: Ttf_Monogram_copy_71
+  - first:
+      213: 2139366840268767679
+    second: Ttf_Monogram_copy_72
+  - first:
+      213: 1839227228812654250
+    second: Ttf_Monogram_copy_73
+  - first:
+      213: -8349324129927060286
+    second: Ttf_Monogram_copy_74
+  - first:
+      213: -6816429286175162396
+    second: Ttf_Monogram_copy_75
+  - first:
+      213: 4654305989355017192
+    second: Ttf_Monogram_copy_76
+  - first:
+      213: -5189817371154744537
+    second: Ttf_Monogram_copy_77
+  - first:
+      213: 7999701251365207441
+    second: Ttf_Monogram_copy_78
+  - first:
+      213: -3810258177990415555
+    second: Ttf_Monogram_copy_79
+  - first:
+      213: 1569041033473936154
+    second: Ttf_Monogram_copy_80
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ttf_Monogram_copy_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 101
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e65a0cadecf93a7b0800000000000000
+      internalID: -5214148232782764690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ttf_Monogram_copy_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 91
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c75b2c200195872e0800000000000000
+      internalID: -2127852898631895684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ttf_Monogram_copy_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 82
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8cebbe272a351210800000000000000
+      internalID: 1303011607155829900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ttf_Monogram_copy_3
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 77
+        width: 7
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df2ba8b1be9d3f000800000000000000
+      internalID: 68638023143305981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ttf_Monogram_copy_4
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 86
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c39f0e857f0e8c500800000000000000
+      internalID: 416830318484453692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ttf_Monogram_copy_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 73
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a245a3cddf903520800000000000000
+      internalID: 2679817553104421538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ttf_Monogram_copy_6
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 68
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6298ad295e4e8a70800000000000000
+      internalID: 8831082064245199469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ttf_Monogram_copy_7
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 76
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12ddde70b1c9eee70800000000000000
+      internalID: 9146419533147135265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ttf_Monogram_copy_8
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 77
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4375a0841bab5120800000000000000
+      internalID: 2403702930678313802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ttf_Monogram_copy_9
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 70
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dadf711cc35e10ea0800000000000000
+      internalID: -5908189187033006675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ttf_Monogram_copy_10
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 70
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c00875a4ce888d60800000000000000
+      internalID: 7892715322207633607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ttf_Monogram_copy_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39a89d492039447d0800000000000000
+      internalID: -2935059417842218349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ttf_Monogram_copy_12
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 59
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d719f6181510a6e50800000000000000
+      internalID: 6803251636672106877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ttf_Monogram_copy_13
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 67
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2aa17d7807bc80a30800000000000000
+      internalID: 4181815938189302434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ttf_Monogram_copy_14
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 50
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6033291d5cd37c9b0800000000000000
+      internalID: -5060007736493591802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ttf_Monogram_copy_15
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 61
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ec2df5f727311300800000000000000
+      internalID: 221018501488127204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ttf_Monogram_copy_16
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 54
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 255027c66c5011fa0800000000000000
+      internalID: -5831873692687006382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ttf_Monogram_copy_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 55
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2823f0a753301ea0800000000000000
+      internalID: -5904162660027258836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ttf_Monogram_copy_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 47
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36791fdc02a666ea0800000000000000
+      internalID: -5879895574358943901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ttf_Monogram_copy_19
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 50
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ba74cd53128cf160800000000000000
+      internalID: 7060661335499242160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ttf_Monogram_copy_20
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 43
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c076cfe08777a030800000000000000
+      internalID: 3505902230593499334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ttf_Monogram_copy_21
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 52
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e5673515fc3ba8d0800000000000000
+      internalID: -2834104517178989084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ttf_Monogram_copy_22
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 52
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d9b1130950bcb500800000000000000
+      internalID: 413399162161314258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ttf_Monogram_copy_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 31
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 197be14a5848b37c0800000000000000
+      internalID: -4090530127016970351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ttf_Monogram_copy_24
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 41
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d75b211aec77d05d0800000000000000
+      internalID: -3094685639584336515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ttf_Monogram_copy_25
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 41
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da882f2278bcc4730800000000000000
+      internalID: 3984783551583389869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ttf_Monogram_copy_26
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 36
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02af6715d8bfd9fe0800000000000000
+      internalID: -1180510942925489632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ttf_Monogram_copy_27
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 45
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdf9bfbb600e96da0800000000000000
+      internalID: -5950979113065144357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ttf_Monogram_copy_28
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 27
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bcbee83fcfda4bb0800000000000000
+      internalID: -4950898759234044745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ttf_Monogram_copy_29
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 45
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bead9f9751c414890800000000000000
+      internalID: -7475610251333870869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ttf_Monogram_copy_30
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 36
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78f3bc648a260aab0800000000000000
+      internalID: -4998887111499497593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ttf_Monogram_copy_31
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 45
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b0e48c04e035c070800000000000000
+      internalID: 8125954858680639669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ttf_Monogram_copy_32
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 41
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 746e3f5fc2c8c23e0800000000000000
+      internalID: -2077131203391789497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ttf_Monogram_copy_33
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 29
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83ccfbe81dc0f8960800000000000000
+      internalID: 7606312389834689592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ttf_Monogram_copy_34
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 32
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e18a760b26b5c5b0800000000000000
+      internalID: -5348668686524055068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ttf_Monogram_copy_35
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 32
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80cdf41b94e3365c0800000000000000
+      internalID: -4223463539315057656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ttf_Monogram_copy_36
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 34
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce6712b22f2cefd80800000000000000
+      internalID: -8214914324915718420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ttf_Monogram_copy_37
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 27
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df1b5461b06c4c5b0800000000000000
+      internalID: -5348932706488700419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ttf_Monogram_copy_38
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 27
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f28633f67b9756e00800000000000000
+      internalID: 1037369117930383407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ttf_Monogram_copy_39
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 36
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bf4d5877df8a7eb0800000000000000
+      internalID: -4721303103744421967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ttf_Monogram_copy_40
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 34
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7f331672a5e43d10800000000000000
+      internalID: 2104559411817299839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ttf_Monogram_copy_41
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 27
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b834d0ff9141162c0800000000000000
+      internalID: -4440245655724801141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ttf_Monogram_copy_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 13
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2ec1320406d12650800000000000000
+      internalID: 6206477074198285867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ttf_Monogram_copy_43
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 22
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b800756b55a8acea0800000000000000
+      internalID: -5851712665078529909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ttf_Monogram_copy_44
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 23
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd471a419956575a0800000000000000
+      internalID: -6524196777025768225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ttf_Monogram_copy_45
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 25
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a0a0b5afcee38260800000000000000
+      internalID: 7098780013271490727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ttf_Monogram_copy_46
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 25
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85994460f6c7f87e0800000000000000
+      internalID: -1761052112990201512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ttf_Monogram_copy_47
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 18
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a44ebb6af460d270800000000000000
+      internalID: 8273223542191834272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ttf_Monogram_copy_48
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 18
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 523c71ccd16d34e40800000000000000
+      internalID: 5639586581864497957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ttf_Monogram_copy_49
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 18
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 851b748a9280f3bb0800000000000000
+      internalID: -4954232090074304168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ttf_Monogram_copy_50
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 27
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b3433f4acbb90ca0800000000000000
+      internalID: -6050098146809003082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ttf_Monogram_copy_51
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 18
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84d43137308a6df50800000000000000
+      internalID: 6905891811388247368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ttf_Monogram_copy_52
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 27
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e0f911da51dd8280800000000000000
+      internalID: -9039338689077317405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ttf_Monogram_copy_53
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 18
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11683aab2cddd5a10800000000000000
+      internalID: 1899918446244890129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ttf_Monogram_copy_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2e0c1c2483146d70800000000000000
+      internalID: 9035368210808704556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ttf_Monogram_copy_55
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 0
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bac449728b6c27570800000000000000
+      internalID: 8463045144022895787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ttf_Monogram_copy_56
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 14
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f52a88378aca86450800000000000000
+      internalID: 6082301136256672351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ttf_Monogram_copy_57
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 16
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ed98529d4a4450a0800000000000000
+      internalID: -6893803432569168413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ttf_Monogram_copy_58
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 7
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab85b936e4b415e70800000000000000
+      internalID: 9102139121943140538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ttf_Monogram_copy_59
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 9
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f28f259a02a4f410800000000000000
+      internalID: 1510009941412250353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ttf_Monogram_copy_60
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 9
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4240ab8b745b6efd0800000000000000
+      internalID: -2312962038961667036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ttf_Monogram_copy_61
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 9
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1437d37cd5c559980800000000000000
+      internalID: -8532812361139129535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ttf_Monogram_copy_62
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 9
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6feb8c9cf4f07cbe0800000000000000
+      internalID: -1457179119068856586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ttf_Monogram_copy_63
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 9
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee777a97bd9f51030800000000000000
+      internalID: 3464950209365637102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ttf_Monogram_copy_64
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 9
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c18352fee183e250800000000000000
+      internalID: 5972760394091168195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ttf_Monogram_copy_65
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 16
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3f6069a368218b60800000000000000
+      internalID: 7746517242562506554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ttf_Monogram_copy_66
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 9
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0967269ec45a4ca90800000000000000
+      internalID: -7294523746681719152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ttf_Monogram_copy_67
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 16
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f205851cf1bfdf790800000000000000
+      internalID: -7494558091068288977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ttf_Monogram_copy_68
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 9
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1a15770a30c6cd20800000000000000
+      internalID: 3298535132561218074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ttf_Monogram_copy_69
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 0
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bafb457db95e6bd0800000000000000
+      internalID: -2635070061713556815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ttf_Monogram_copy_70
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 0
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37c1572895fe558a0800000000000000
+      internalID: -6316879734597411725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ttf_Monogram_copy_71
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 0
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02b908f1d79ef99b0800000000000000
+      internalID: -5071077931787183328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ttf_Monogram_copy_72
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 0
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb1487e6ece80bd10800000000000000
+      internalID: 2139366840268767679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ttf_Monogram_copy_73
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 0
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa6ba928b6f368910800000000000000
+      internalID: 1839227228812654250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ttf_Monogram_copy_74
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 0
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c4a911c0fd312c80800000000000000
+      internalID: -8349324129927060286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ttf_Monogram_copy_75
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 0
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4efb5f0edad2761a0800000000000000
+      internalID: -6816429286175162396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ttf_Monogram_copy_76
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 0
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e39a7343aa679040800000000000000
+      internalID: 4654305989355017192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ttf_Monogram_copy_77
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 0
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72b7b2709901af7b0800000000000000
+      internalID: -5189817371154744537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ttf_Monogram_copy_78
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19dfed467e5a40f60800000000000000
+      internalID: 7999701251365207441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ttf_Monogram_copy_79
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 0
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3baa5eef5e3f1bc0800000000000000
+      internalID: -3810258177990415555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ttf_Monogram_copy_80
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 0
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1bc93eb18a56c510800000000000000
+      internalID: 1569041033473936154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Ttf_Monogram_copy_0: -5214148232782764690
+      Ttf_Monogram_copy_1: -2127852898631895684
+      Ttf_Monogram_copy_10: 7892715322207633607
+      Ttf_Monogram_copy_11: -2935059417842218349
+      Ttf_Monogram_copy_12: 6803251636672106877
+      Ttf_Monogram_copy_13: 4181815938189302434
+      Ttf_Monogram_copy_14: -5060007736493591802
+      Ttf_Monogram_copy_15: 221018501488127204
+      Ttf_Monogram_copy_16: -5831873692687006382
+      Ttf_Monogram_copy_17: -5904162660027258836
+      Ttf_Monogram_copy_18: -5879895574358943901
+      Ttf_Monogram_copy_19: 7060661335499242160
+      Ttf_Monogram_copy_2: 1303011607155829900
+      Ttf_Monogram_copy_20: 3505902230593499334
+      Ttf_Monogram_copy_21: -2834104517178989084
+      Ttf_Monogram_copy_22: 413399162161314258
+      Ttf_Monogram_copy_23: -4090530127016970351
+      Ttf_Monogram_copy_24: -3094685639584336515
+      Ttf_Monogram_copy_25: 3984783551583389869
+      Ttf_Monogram_copy_26: -1180510942925489632
+      Ttf_Monogram_copy_27: -5950979113065144357
+      Ttf_Monogram_copy_28: -4950898759234044745
+      Ttf_Monogram_copy_29: -7475610251333870869
+      Ttf_Monogram_copy_3: 68638023143305981
+      Ttf_Monogram_copy_30: -4998887111499497593
+      Ttf_Monogram_copy_31: 8125954858680639669
+      Ttf_Monogram_copy_32: -2077131203391789497
+      Ttf_Monogram_copy_33: 7606312389834689592
+      Ttf_Monogram_copy_34: -5348668686524055068
+      Ttf_Monogram_copy_35: -4223463539315057656
+      Ttf_Monogram_copy_36: -8214914324915718420
+      Ttf_Monogram_copy_37: -5348932706488700419
+      Ttf_Monogram_copy_38: 1037369117930383407
+      Ttf_Monogram_copy_39: -4721303103744421967
+      Ttf_Monogram_copy_4: 416830318484453692
+      Ttf_Monogram_copy_40: 2104559411817299839
+      Ttf_Monogram_copy_41: -4440245655724801141
+      Ttf_Monogram_copy_42: 6206477074198285867
+      Ttf_Monogram_copy_43: -5851712665078529909
+      Ttf_Monogram_copy_44: -6524196777025768225
+      Ttf_Monogram_copy_45: 7098780013271490727
+      Ttf_Monogram_copy_46: -1761052112990201512
+      Ttf_Monogram_copy_47: 8273223542191834272
+      Ttf_Monogram_copy_48: 5639586581864497957
+      Ttf_Monogram_copy_49: -4954232090074304168
+      Ttf_Monogram_copy_5: 2679817553104421538
+      Ttf_Monogram_copy_50: -6050098146809003082
+      Ttf_Monogram_copy_51: 6905891811388247368
+      Ttf_Monogram_copy_52: -9039338689077317405
+      Ttf_Monogram_copy_53: 1899918446244890129
+      Ttf_Monogram_copy_54: 9035368210808704556
+      Ttf_Monogram_copy_55: 8463045144022895787
+      Ttf_Monogram_copy_56: 6082301136256672351
+      Ttf_Monogram_copy_57: -6893803432569168413
+      Ttf_Monogram_copy_58: 9102139121943140538
+      Ttf_Monogram_copy_59: 1510009941412250353
+      Ttf_Monogram_copy_6: 8831082064245199469
+      Ttf_Monogram_copy_60: -2312962038961667036
+      Ttf_Monogram_copy_61: -8532812361139129535
+      Ttf_Monogram_copy_62: -1457179119068856586
+      Ttf_Monogram_copy_63: 3464950209365637102
+      Ttf_Monogram_copy_64: 5972760394091168195
+      Ttf_Monogram_copy_65: 7746517242562506554
+      Ttf_Monogram_copy_66: -7294523746681719152
+      Ttf_Monogram_copy_67: -7494558091068288977
+      Ttf_Monogram_copy_68: 3298535132561218074
+      Ttf_Monogram_copy_69: -2635070061713556815
+      Ttf_Monogram_copy_7: 9146419533147135265
+      Ttf_Monogram_copy_70: -6316879734597411725
+      Ttf_Monogram_copy_71: -5071077931787183328
+      Ttf_Monogram_copy_72: 2139366840268767679
+      Ttf_Monogram_copy_73: 1839227228812654250
+      Ttf_Monogram_copy_74: -8349324129927060286
+      Ttf_Monogram_copy_75: -6816429286175162396
+      Ttf_Monogram_copy_76: 4654305989355017192
+      Ttf_Monogram_copy_77: -5189817371154744537
+      Ttf_Monogram_copy_78: 7999701251365207441
+      Ttf_Monogram_copy_79: -3810258177990415555
+      Ttf_Monogram_copy_8: 2403702930678313802
+      Ttf_Monogram_copy_80: 1569041033473936154
+      Ttf_Monogram_copy_9: -5908189187033006675
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

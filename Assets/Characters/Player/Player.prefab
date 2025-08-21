@@ -136,7 +136,7 @@ GameObject:
   - component: {fileID: 1514388132847245317}
   - component: {fileID: 1658629815924765138}
   - component: {fileID: -4543307026917143729}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -258,7 +258,7 @@ Rigidbody2D:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 8
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0

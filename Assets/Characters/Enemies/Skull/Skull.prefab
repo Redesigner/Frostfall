@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1008585311603271595}
   - component: {fileID: 1082359286936826194}
   - component: {fileID: 370324152122606199}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -121,7 +121,7 @@ GameObject:
   - component: {fileID: 1830266433080560711}
   - component: {fileID: 936097535864795099}
   - component: {fileID: 5911417074107941289}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: DeathParticle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5018,7 +5018,7 @@ GameObject:
   - component: {fileID: 867616056156684827}
   - component: {fileID: 4900776742747862498}
   - component: {fileID: 402180404008070029}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Skull
   m_TagString: Untagged
   m_Icon: {fileID: 0}
