@@ -136,6 +136,7 @@ GameObject:
   - component: {fileID: 1514388132847245317}
   - component: {fileID: 1658629815924765138}
   - component: {fileID: -4543307026917143729}
+  - component: {fileID: 3674616978688591006}
   m_Layer: 3
   m_Name: Player
   m_TagString: Untagged
@@ -366,6 +367,22 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: 2b43e9b1-2559-4778-b93c-a92af6f3ca90
     m_ActionName: 'Default/Attack[/Keyboard/space]'
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 3674616978688591006}
+        m_TargetAssemblyTypeName: InteractComponent, Assembly-CSharp
+        m_MethodName: TryInteract
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 593355e3-8615-4260-957c-1522c6e1449d
+    m_ActionName: 'Default/Interact[/Keyboard/e]'
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Default
@@ -402,3 +419,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hitboxComponent: {fileID: 5516767080628845717}
+--- !u!114 &3674616978688591006
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6561615579247366955}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44363fe8c85fbb8449cd11558b6e3335, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactionMask:
+    serializedVersion: 2
+    m_Bits: 8

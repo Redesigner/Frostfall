@@ -14,6 +14,13 @@ public class KinematicCharacterController : KinematicObject
     private static readonly int VerticalBlend = Animator.StringToHash("Vertical");
     private static readonly int SpeedBlend = Animator.StringToHash("Speed");
 
+    public Vector2 lookDirection
+    {
+        get => _lookDirection;
+        private set { }
+    }
+    private Vector2 _lookDirection;
+
 
     [SerializeField]
     private float walkSpeed = 4.0f;
@@ -59,6 +66,9 @@ public class KinematicCharacterController : KinematicObject
 
         if (_moveInput.x != 0.0f || _moveInput.y != 0.0f)
         {
+            _lookDirection.x = _moveInput.x;
+            _lookDirection.y = _moveInput.y;
+            
             _animator.SetFloat(HorizontalBlend, _moveInput.x);
             _animator.SetFloat(VerticalBlend, _moveInput.y);
             _animator.SetFloat(SpeedBlend, 1.0f);
@@ -76,6 +86,9 @@ public class KinematicCharacterController : KinematicObject
         // Pull our last registered input value into animator
         if (_moveInput.x != 0.0f || _moveInput.y != 0.0f)
         {
+            _lookDirection.x = _moveInput.x;
+            _lookDirection.y = _moveInput.y;
+            
             _animator.SetFloat(HorizontalBlend, _moveInput.x);
             _animator.SetFloat(VerticalBlend, _moveInput.y);
             _animator.SetFloat(SpeedBlend, 1.0f);

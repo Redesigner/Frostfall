@@ -7,6 +7,8 @@ public class DialogBoxScroll : MonoBehaviour
 {
     private TextMeshProUGUI _text;
     private float _currentCharacterDisplayTime;
+    private bool _playing = false;
+    private DialogEntry _currentDialog;
 
     [SerializeField]
     private float characterStepTime = 0.5f;
@@ -19,7 +21,11 @@ public class DialogBoxScroll : MonoBehaviour
 
     private void Update()
     {
-        _currentCharacterDisplayTime += Time.unscaledTime;
+        if (!_playing)
+        {
+            return;
+        }
+        _currentCharacterDisplayTime += Mathf.Min(Time.unscaledDeltaTime, characterStepTime);
 
         if (!(_currentCharacterDisplayTime >= characterStepTime))
         {
@@ -28,5 +34,12 @@ public class DialogBoxScroll : MonoBehaviour
         
         _currentCharacterDisplayTime -= characterStepTime;
         ++_text.maxVisibleCharacters;
+    }
+
+    public void SetDialog(DialogEntry dialog)
+    {
+        _playing = true;
+        _currentDialog = dialog;
+        _text.maxVisibleCharacters = 0;
     }
 }

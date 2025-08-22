@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7852393566888953156}
   - component: {fileID: 4829194023707586430}
+  - component: {fileID: 7694497386852278949}
   m_Layer: 0
   m_Name: HUD
   m_TagString: Untagged
@@ -60,6 +61,19 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!114 &7694497386852278949
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1040671094307661608}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcac0f911641e7e47b9b69fe6cd236e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogBox: {fileID: 1030383038785857619}
 --- !u!1001 &4435638550548690793
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -189,6 +203,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f59332422a170aa4a84d991c030c82cf, type: 3}
+--- !u!114 &1030383038785857619 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3729589795321585466, guid: f59332422a170aa4a84d991c030c82cf, type: 3}
+  m_PrefabInstance: {fileID: 4435638550548690793}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c949fbcb7c41e5d4091a64467bf69833, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!224 &7606174459565185061 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6052840775060008780, guid: f59332422a170aa4a84d991c030c82cf, type: 3}
