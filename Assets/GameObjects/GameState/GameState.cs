@@ -1,7 +1,13 @@
 using UnityEngine;
+using UnityEngine.Events;
 
 public class GameState : MonoBehaviour
 {
+    public UnityEvent onGamePaused = new();
+    public UnityEvent onGameUnpaused = new();
+
+    public bool paused { get; private set; }
+    
     private static GameState _instance;
     
     public static GameState instance
@@ -30,11 +36,25 @@ public class GameState : MonoBehaviour
 
     public void Pause()
     {
+        if (paused)
+        {
+            return;
+        }
+        
+        onGamePaused.Invoke();
         Time.timeScale = 0.0f;
+        paused = true;
     }
 
     public void Unpause()
     {
+        if (!paused)
+        {
+            return;
+        }
+        
+        onGameUnpaused.Invoke();
         Time.timeScale = 1.0f;
+        paused = false;
     }
 }

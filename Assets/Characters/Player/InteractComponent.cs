@@ -9,6 +9,10 @@ public class InteractComponent : MonoBehaviour
 
     [SerializeField] private LayerMask interactionMask;
 
+    [SerializeField] [Min(0.0f)] private float debounceTime = 0.2f;
+
+    private bool _canInteract = true;
+
     private void Awake()
     {
         _controller = GetComponent<KinematicCharacterController>();
@@ -16,7 +20,7 @@ public class InteractComponent : MonoBehaviour
 
     public void TryInteract(InputAction.CallbackContext context)
     {
-        if (!context.performed)
+        if (!context.performed || Time.timeScale == 0.0f || !_canInteract)
         {
             return;
         }
@@ -36,6 +40,9 @@ public class InteractComponent : MonoBehaviour
             }
 
             interactable.InteractWith(this);
+            _canInteract = false;
+            TimerManager.instance.CreateTimer(this, debounceTime, () => { _canInteract = true; });
+            break;
         }
     }
 

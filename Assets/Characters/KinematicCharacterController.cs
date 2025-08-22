@@ -50,15 +50,10 @@ public class KinematicCharacterController : KinematicObject
         return _movementEnabled ? _moveInput * walkSpeed : velocity;
     }
 
-    protected override void FixedUpdate()
-    {
-        base.FixedUpdate();
-    }
-
     public void OnMoveInput(InputAction.CallbackContext context)
     {
         moveInput = context.ReadValue<Vector2>();
-        if (!_movementEnabled)
+        if (!_movementEnabled || GameState.instance.paused)
         {
             return;
         }
