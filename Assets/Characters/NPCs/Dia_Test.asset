@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb0a5c226c3f8bd459b416ef5abd4439, type: 3}
   m_Name: Dia_Test
   m_EditorClassIdentifier: 
-  text: '"Rumors are spreading which suggest the moon is falling, but you can breathe
-    easier as long as I am in town.\nTonight, I shall cut the moon into pieces!"'
+  text: Rumors are spreading which suggest the moon is falling, but you can breathe
+    easier as long as I am in town.\nTonight, I shall cut the moon into pieces!
   nextEntry: {fileID: 0}
