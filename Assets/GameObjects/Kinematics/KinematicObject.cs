@@ -119,6 +119,8 @@ namespace Platformer.Mechanics
             if (closestHit.distance <= modifiedShellRadius)
             {
                 // Debug.DrawRay(Body.position, new Vector2(0.0f, 1.0f), Color.red);
+                // ReSharper disable once Unity.PerformanceCriticalCodeInvocation
+                OnMovementHit(collisionResult.hits.First());
                 return collisionResult;
             }
 
@@ -127,36 +129,48 @@ namespace Platformer.Mechanics
                 collisionResult.distanceMoved = moveDistance;
                 // Body.MovePosition(Body.position + move);
                 _body.position += move;
+                // ReSharper disable once Unity.PerformanceCriticalCodeInvocation
+                OnMovementHit(collisionResult.hits.First());
                 return collisionResult;
             }
             
             _body.position += moveDirection * (closestHit.distance - shellRadius);
+            OnMovementHit(collisionResult.hits.First());
             return collisionResult;
         }
 
-        protected void CollideAndSlide(Vector2 movement)
+        protected virtual void OnMovementHit(RaycastHit2D hit)
+        {
+        }
+
+        protected bool CollideAndSlide(Vector2 movement)
         {
             if (movement.sqrMagnitude < minMoveDistance * minMoveDistance)
             {
-                return;
+                return false;
             }
             
             var movementThisStep = movement;
             var movementLength = movement.magnitude;
+            var collidedThisMove = false;
             
             for (var moveCount = 0; moveCount < MaxMoveCount; ++moveCount)
             {
                 var movementResult = PerformMovement(movementThisStep);
-                
-                if (!movementResult.Collided())
+
+                if (movementResult.Collided())
                 {
-                    return;
+                    collidedThisMove = true;
+                }
+                else
+                {
+                    return collidedThisMove;
                 }
 
                 movementLength -= movementResult.distanceMoved;
                 if (movementLength <= 0.0f)
                 {
-                    return;
+                    return true;
                 }
 
                 var collisionNormal = movementResult.hits.First().normal;
@@ -169,6 +183,8 @@ namespace Platformer.Mechanics
                 var slideMovement = planeDirection * movementLength;
                 movementThisStep = slideMovement;
             }
+
+            return true;
         }
 
         protected void ResolvePenetrations()

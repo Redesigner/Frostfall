@@ -13,11 +13,12 @@ public class KinematicCharacterController : KinematicObject
     private static readonly int HorizontalBlend = Animator.StringToHash("Horizontal");
     private static readonly int VerticalBlend = Animator.StringToHash("Vertical");
     private static readonly int SpeedBlend = Animator.StringToHash("Speed");
+    private static readonly int Pushing = Animator.StringToHash("Pushing");
 
     public Vector2 lookDirection
     {
         get => _lookDirection;
-        private set { }
+        private set => _lookDirection = value;
     }
     private Vector2 _lookDirection;
 
@@ -29,7 +30,11 @@ public class KinematicCharacterController : KinematicObject
 
     private Animator _animator;
 
+    private List<(KinematicListener, RaycastHit2D)> _objectsHitThisFrame = new();
+
     private Vector2 _moveInput;
+
+    private bool _isPushing = false;
 
     private TimerHandle _knockbackTimer;
 
@@ -48,6 +53,45 @@ public class KinematicCharacterController : KinematicObject
     protected override Vector2 ComputeVelocity()
     {
         return _movementEnabled ? _moveInput * walkSpeed : velocity;
+    }
+
+    protected override void FixedUpdate()
+    {
+        _objectsHitThisFrame.Clear();
+        velocity = ComputeVelocity();
+
+        if (velocity is { x: 0.0f, y: 0.0f })
+        {
+            if (!_isPushing)
+            {
+                return;
+            }
+            _animator.SetBool(Pushing, false);
+            _isPushing = false;
+            return;
+        }
+
+        if (CollideAndSlide(velocity * Time.fixedDeltaTime))
+        {
+            if (!_isPushing)
+            {
+                _animator.SetBool(Pushing, true);
+                _isPushing = true;
+            }
+        }
+        else
+        {
+            if (_isPushing)
+            {
+                _animator.SetBool(Pushing, false);
+                _isPushing = false;
+            }
+        }
+
+        foreach (var objectHit in _objectsHitThisFrame)
+        {
+            objectHit.Item1.OnHit(this, objectHit.Item2);
+        }
     }
 
     public void OnMoveInput(InputAction.CallbackContext context)
@@ -72,6 +116,23 @@ public class KinematicCharacterController : KinematicObject
         {
             _animator.SetFloat(SpeedBlend, 0.0f);
         }
+    }
+
+    protected override void OnMovementHit(RaycastHit2D hit)
+    {
+        Debug.DrawRay(hit.point, hit.normal, Color.blue);
+        // ReSharper disable once Unity.PerformanceCriticalCodeInvocation
+        var listener = hit.collider.GetComponent<KinematicListener>();
+        if (!listener)
+        {
+            return;
+        }
+        
+        if (_objectsHitThisFrame.Any(objectHit => objectHit.Item1 == listener))
+        {
+            return;
+        }
+        _objectsHitThisFrame.Add((listener, hit));
     }
 
     public void EnableMovement()
