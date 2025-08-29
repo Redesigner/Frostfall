@@ -250,7 +250,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c949fbcb7c41e5d4091a64467bf69833, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  characterStepTime: 0.1
+  characterStepTime: 0.02
   cursorObject: {fileID: 3919515259357039114}
 --- !u!1 &9190952837475527874
 GameObject:

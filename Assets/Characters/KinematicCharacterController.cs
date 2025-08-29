@@ -121,6 +121,12 @@ public class KinematicCharacterController : KinematicObject
     protected override void OnMovementHit(RaycastHit2D hit)
     {
         Debug.DrawRay(hit.point, hit.normal, Color.blue);
+
+        if (!hit.collider.CompareTag("KinematicListener"))
+        {
+            return;
+        }
+        
         // ReSharper disable once Unity.PerformanceCriticalCodeInvocation
         var listener = hit.collider.GetComponent<KinematicListener>();
         if (!listener)

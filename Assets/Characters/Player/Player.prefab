@@ -137,6 +137,7 @@ GameObject:
   - component: {fileID: 1658629815924765138}
   - component: {fileID: -4543307026917143729}
   - component: {fileID: 3674616978688591006}
+  - component: {fileID: 4659366038636584378}
   m_Layer: 3
   m_Name: Player
   m_TagString: Untagged
@@ -431,7 +432,35 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44363fe8c85fbb8449cd11558b6e3335, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  itemHandle: {fileID: 4659366038636584378}
   interactionMask:
     serializedVersion: 2
     m_Bits: 8
   debounceTime: 0.2
+  onPickupInteracted:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4659366038636584378}
+        m_TargetAssemblyTypeName: ItemHandleComponent, Assembly-CSharp
+        m_MethodName: PickupItem
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &4659366038636584378
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6561615579247366955}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 873a012d5f34b074e8d2d803304bcb1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
